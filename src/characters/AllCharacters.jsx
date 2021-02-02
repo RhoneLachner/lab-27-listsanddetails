@@ -17,13 +17,7 @@ export default class AllCharacters extends Component {
 
         return (
             <>
-          <ul>
-               {characters.map(character => (
-                   <li key={character.id}>
-                       <p>{character.name}</p>
-                   </li>
-               ))}
-           </ul>
+                <characterList characters={characters} />
            </>
         );
     }

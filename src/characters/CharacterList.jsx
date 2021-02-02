@@ -7,7 +7,6 @@ const CharacterList = ({ characters }) => {
         <li key={character.id}>
             <Character {...character} />
         </li>
-
     ));
 
     return (
