@@ -2,12 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 
-const Character = ({ name, image }) => {
+const Character = ({ name, image }) => (
     <figure>
-         <img src={image} />
+         <img src={image} alt={name} />
          <figcaption>{name}</figcaption>
     </figure>
-};
+);
 
 Character.propTypes = {
     name: PropTypes.string.isRequired,

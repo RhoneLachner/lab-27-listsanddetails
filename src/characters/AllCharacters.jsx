@@ -1,6 +1,5 @@
-import { json } from 'express';
 import React, { Component } from 'react'
-import { getCharacters } from './xFilesApi';
+import { getCharacters } from './heyArnoldApi';
 import CharacterList from './CharacterList';
 
 export default class AllCharacters extends Component {
@@ -15,11 +14,14 @@ export default class AllCharacters extends Component {
 
     render() {
         const { characters } = this.state;
+console.log(characters, 'state')
+
+        
 
         return (
             <>
                 <CharacterList characters={characters} />
-           </>
+            </>
         );
     }
 }
