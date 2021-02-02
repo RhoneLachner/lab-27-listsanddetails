@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import Character from './Character';
 
@@ -17,7 +17,7 @@ const CharacterList = ({ characters }) => {
     );
 };
 
-CharacterList.PropTypes = {
+CharacterList.propTypes = {
     characters: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
         name: PropTypes.string.isRequired,
