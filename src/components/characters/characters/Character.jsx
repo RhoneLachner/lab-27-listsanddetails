@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import '../../../app/App.css';
 
 import { Link } from 'react-router-dom';
-import Details from '../../containers/Details';
 
 const Character = ({ name, image, _id }) => (
     <figure>

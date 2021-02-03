@@ -8,7 +8,6 @@ import Home from '../components/containers/Home';
 import Details from '../components/containers/Details';
 import './App.css';
 
-
 export default function App() {
     
     return (
