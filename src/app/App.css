@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  align-content:center;
+}
+
+h2 {
+  align-self: center;
+  text-align: center;
+  padding: 8vh;
+}
+
+.characterItem {
+  align-self: center;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+figure {
+  padding: 3vh;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  height: 15vh;
+  padding: 2vh;
+ 
+}
+
+ul {
+list-style: none ;
+}
